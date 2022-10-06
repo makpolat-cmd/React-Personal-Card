@@ -1,0 +1,256 @@
+/*Ana arka plan bölümü*/
+.container{
+  position: absolute;
+  width: 550px;
+  height: 868px;
+  left: 65px;
+  top: 53px;
+  margin-left: 27%;
+
+  background: #23252C;
+}
+
+
+/*Header bölümü*/
+.my-head{
+position: absolute;
+width: 317px;
+height: 317px;
+left: 116px;
+top: 44px;
+
+background: url(.png);
+border-radius: 10px 10px 0px 0px;
+}
+
+
+/* Main Css bölümü*/
+.my-main{
+  position: absolute;
+width: 317px;
+height: 399px;
+left: 116px;
+top: 361px;
+
+background: #1A1B21;
+}
+
+.my-name{
+  position: absolute;
+width: 178.06px;
+height: 25.81px;
+left: 186px;
+top: 382px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.my-writing-1{
+  position: absolute;
+width: 178.06px;
+height: 14.19px;
+left: 186px;
+top: 414px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12.8px;
+line-height: 15px;
+text-align: center;
+
+color: #F3BF99;
+}
+
+.my-writing-2{
+  position: absolute;
+width: 228px;
+height: 16px;
+left: 161px;
+top: 450px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* identical to box height, or 15px */
+
+text-align: center;
+
+color: #F5F5F5;
+}
+
+.mail-btn{
+
+  text-decoration: none;
+  /* Button */
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+
+position: absolute;
+width: 115px;
+height: 34px;
+left: 151px;
+top: 480px;
+
+/* white */
+
+background: #FFFFFF;
+/* gray/300 */
+
+border: 1px solid #D1D5DB;
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+}
+
+.linkedin-btn{
+  /* Button */
+  text-decoration: none;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+
+position: absolute;
+width: 100px;
+height: 16px;
+left: 283px;
+top: 480px;
+
+background: #5093E2;
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+}
+
+.my-head-1{
+  position: absolute;
+width: 242.71px;
+height: 21px;
+left: 152px;
+top: 525px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+
+color: #F5F5F5;
+}
+
+.my-p-1{
+  position: absolute;
+width: 247px;
+height: 61px;
+left: 152px;
+top: 561px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* or 15px */
+
+
+color: #DCDCDC;
+}
+
+.my-head-2{
+  position: absolute;
+width: 242.71px;
+height: 21px;
+left: 152px;
+top: 635px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+
+color: #F5F5F5;
+}
+
+.my-p-2{
+  position: absolute;
+width: 247px;
+height: 61px;
+left: 152px;
+top: 675px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* or 15px */
+
+
+color: #DCDCDC;
+}
+
+/*Footer bölümü*/
+.my-foot{
+  position: absolute;
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.tw-btn{
+  position: absolute;
+  left: 73px;
+  top: 19px;
+}
+
+.fc-btn{
+  position: absolute;
+  left: 122px;
+  top: 19px;
+}
+
+.ins-btn{
+  position: absolute;
+  left: 171px;
+  top: 19px;
+}
+
+.git-btn{
+  position: absolute;
+  left: 219.5px;
+  top: 19px;
+}
